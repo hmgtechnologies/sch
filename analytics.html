@@ -6,7 +6,7 @@
 <title>Analytics • HMG ACADEMY </title>
 <meta name="description" content="HMG ACADEMY  — Analytics. Free school management platform by HMG Concepts.">
 <meta name="keywords" content="HMG ACADEMY , school management, HMG, HMG Concepts">
-<meta name="theme-color" content="#0daaf6">
+<meta name="theme-color" content="#5207d4">
 <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
 /* === Critical app-shell CSS (inlined as a safety net) ===
    Guarantees the logged-in dashboard layout renders correctly even if the
    external stylesheet is cached/blocked/fails to load. Mirrors style.css. */
-:root{--sc-primary:#0daaf6;--sc-accent:#0a5a7e}
+:root{--sc-primary:#5207d4;--sc-accent:#da62bd}
 .app-layout{display:flex;min-height:100vh;background:#f8fafc}
 .app-sidebar{width:250px;flex-shrink:0;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto;z-index:40}
 .app-brand{display:flex;align-items:center;gap:12px;padding:18px;border-bottom:1px solid #e2e8f0}
@@ -30,8 +30,8 @@
 .app-brand strong{display:block;font-size:.95rem;font-weight:800;color:#0f172a;line-height:1.2}
 .app-nav{display:flex;flex-direction:column;gap:2px;padding:12px 10px;flex:1}
 .app-nav a{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;color:#475569;text-decoration:none;font-size:.9rem;font-weight:600;line-height:1;white-space:nowrap}
-.app-nav a:hover{background:#f1f5f9;color:#0daaf6}
-.app-nav a.active{background:#0daaf6;color:#fff}
+.app-nav a:hover{background:#f1f5f9;color:#5207d4}
+.app-nav a.active{background:#5207d4;color:#fff}
 .app-nav-icon{width:24px;min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0}
 .app-main{flex:1;min-width:0;display:flex;flex-direction:column}
 .app-topbar{display:flex;align-items:center;gap:14px;padding:14px 24px;background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:30}
@@ -45,7 +45,7 @@
 @media(min-width:901px){.app-topbar .mobile-toggle{display:none}}
 </style>
 </head>
-<body data-theme="theme3" data-school="HMG ACADEMY " data-font="inter">
+<body data-theme="theme32" data-school="HMG ACADEMY " data-font="oswald">
 
 <div id="notif-bell" class="notif-bell" title="Notifications" data-chatbot>
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
@@ -88,7 +88,7 @@
 <div class="app-layout layout0" data-require-role="staff">
   <aside class="app-sidebar" id="app-sidebar">
       <div class="app-brand">
-        <img src="assets/img/logo.svg" alt="HMG ACADEMY  logo" style="object-fit:contain">
+        <img src="assets/img/logo.svg" alt="HMG ACADEMY " style="object-fit:contain" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('div'),{textContent:('H'),style:'width:40px;height:40px;border-radius:10px;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900'}))">
         <div>
           <strong>HMG ACADEMY </strong>
           <div style="font-size:0.7rem;color:var(--gray-500)">HMG</div>
@@ -134,12 +134,39 @@
         </a><a href="assignments.html" class="">
           <span class="app-nav-icon">📝</span>
           <span>Assignments</span>
+        </a><a href="library.html" class="">
+          <span class="app-nav-icon">📖</span>
+          <span>Library</span>
+        </a><a href="conduct.html" class="">
+          <span class="app-nav-icon">⚖️</span>
+          <span>Conduct</span>
+        </a><a href="health.html" class="">
+          <span class="app-nav-icon">🩺</span>
+          <span>Health</span>
+        </a><a href="promotion.html" class="">
+          <span class="app-nav-icon">🎓</span>
+          <span>Promotion</span>
         </a><a href="lms.html" class="">
           <span class="app-nav-icon">🎓</span>
           <span>LMS</span>
+        </a><a href="gamification.html" class="">
+          <span class="app-nav-icon">🏅</span>
+          <span>Gamification</span>
+        </a><a href="career_counseling.html" class="">
+          <span class="app-nav-icon">🧭</span>
+          <span>Career</span>
         </a><a href="lesson_plans.html" class="">
           <span class="app-nav-icon">🗒️</span>
           <span>Lesson Plans</span>
+        </a><a href="behaviour.html" class="">
+          <span class="app-nav-icon">🏅</span>
+          <span>Behaviour</span>
+        </a><a href="support_plans.html" class="">
+          <span class="app-nav-icon">🧩</span>
+          <span>Support Plans</span>
+        </a><a href="substitutions.html" class="">
+          <span class="app-nav-icon">🔁</span>
+          <span>Substitutions</span>
         </a><a href="analytics.html" class="active">
           <span class="app-nav-icon">📊</span>
           <span>Analytics</span>
@@ -158,9 +185,33 @@
         </a><a href="hr.html" class="">
           <span class="app-nav-icon">💼</span>
           <span>HR &amp; Payroll</span>
+        </a><a href="hostel.html" class="">
+          <span class="app-nav-icon">🛏️</span>
+          <span>Hostel</span>
+        </a><a href="alumni.html" class="">
+          <span class="app-nav-icon">🤝</span>
+          <span>Alumni</span>
+        </a><a href="inventory.html" class="">
+          <span class="app-nav-icon">📦</span>
+          <span>Inventory</span>
         </a><a href="certificates.html" class="">
           <span class="app-nav-icon">📜</span>
           <span>Certificates</span>
+        </a><a href="document_builder.html" class="">
+          <span class="app-nav-icon">🧾</span>
+          <span>Documents</span>
+        </a><a href="fleet_tracking.html" class="">
+          <span class="app-nav-icon">🛰️</span>
+          <span>Fleet</span>
+        </a><a href="facility_booking.html" class="">
+          <span class="app-nav-icon">🏟️</span>
+          <span>Facilities</span>
+        </a><a href="compliance.html" class="">
+          <span class="app-nav-icon">✅</span>
+          <span>Compliance</span>
+        </a><a href="activity_log.html" class="">
+          <span class="app-nav-icon">🧮</span>
+          <span>Activity Log</span>
         </a><a href="diary.html" class="">
           <span class="app-nav-icon">📔</span>
           <span>Diary</span>
@@ -170,6 +221,9 @@
         </a><a href="announcements.html" class="">
           <span class="app-nav-icon">📢</span>
           <span>Announcements</span>
+        </a><a href="events.html" class="">
+          <span class="app-nav-icon">🎭</span>
+          <span>Events</span>
         </a><a href="messages.html" class="">
           <span class="app-nav-icon">📱</span>
           <span>Messaging</span>
@@ -191,6 +245,12 @@
         </a><a href="front_desk.html" class="">
           <span class="app-nav-icon">🛎️</span>
           <span>Front Desk</span>
+        </a><a href="helpdesk.html" class="">
+          <span class="app-nav-icon">🆘</span>
+          <span>Help Desk</span>
+        </a><a href="menu.html" class="">
+          <span class="app-nav-icon">🍽️</span>
+          <span>Menu</span>
         </a><a href="gallery.html" class="">
           <span class="app-nav-icon">🖼️</span>
           <span>Gallery</span>
@@ -224,6 +284,9 @@
         </a><a href="lost_found.html" class="">
           <span class="app-nav-icon">🔍</span>
           <span>Lost &amp; Found</span>
+        </a><a href="book_request.html" class="">
+          <span class="app-nav-icon">📖</span>
+          <span>Book Request</span>
         </a><a href="fees.html" class="">
           <span class="app-nav-icon">💰</span>
           <span>Fees</span>
@@ -233,6 +296,21 @@
         </a><a href="leave.html" class="">
           <span class="app-nav-icon">🏖️</span>
           <span>Leave</span>
+        </a><a href="visitors.html" class="">
+          <span class="app-nav-icon">🚪</span>
+          <span>Visitors</span>
+        </a><a href="transport.html" class="">
+          <span class="app-nav-icon">🚌</span>
+          <span>Transport</span>
+        </a><a href="cafeteria.html" class="">
+          <span class="app-nav-icon">🍽️</span>
+          <span>Cafeteria</span>
+        </a><a href="financial_aid.html" class="">
+          <span class="app-nav-icon">🎗️</span>
+          <span>Financial Aid</span>
+        </a><a href="donations.html" class="">
+          <span class="app-nav-icon">💝</span>
+          <span>Donations</span>
         </a><a href="payments_online.html" class="">
           <span class="app-nav-icon">💳</span>
           <span>Online Pay</span>
@@ -248,6 +326,7 @@
       <h1 class="app-page-title">Analytics</h1>
       <div style="margin-left:auto;display:flex;align-items:center;gap:12px">
         
+        <button class="btn btn-sm btn-outline" onclick="if(window.Super)Super.chatbot.explainPage()" title="About this page">ℹ️ Help</button>
         <button class="btn btn-sm btn-outline" onclick="App.toggleDarkMode()" title="Toggle theme">🌙</button>
         <button class="btn btn-sm btn-outline" onclick="App.signOut()" data-signout style="display:none">Sign out</button>
       </div>
@@ -266,6 +345,14 @@
         <div class="stat-card"><div class="stat-value" id="kpi-polls">—</div><div class="stat-label">Polls</div></div>
         <div class="stat-card"><div class="stat-value" id="kpi-complaints">—</div><div class="stat-label">Complaints</div></div>
         <div class="stat-card"><div class="stat-value" id="kpi-admissions">—</div><div class="stat-label">Admissions</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-assignments">—</div><div class="stat-label">Assignments</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-library">—</div><div class="stat-label">Library Books</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-events">—</div><div class="stat-label">Events</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-announcements">—</div><div class="stat-label">Announcements</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-checkins">—</div><div class="stat-label">QR Check-ins</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-leave">—</div><div class="stat-label">Leave Requests</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-visitors">—</div><div class="stat-label">Visitors</div></div>
+        <div class="stat-card"><div class="stat-value" id="kpi-tickets">—</div><div class="stat-label">Help Tickets</div></div>
       </div>
       <div class="grid grid-2">
         <div class="card"><h3>CBT Score Distribution</h3><canvas id="chart-cbt" style="max-height:260px"></canvas></div>

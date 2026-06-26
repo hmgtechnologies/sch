@@ -6,7 +6,7 @@
 <title>Sign in • HMG ACADEMY </title>
 <meta name="description" content="HMG ACADEMY  — Sign in. Free school management platform by HMG Concepts.">
 <meta name="keywords" content="HMG ACADEMY , school management, HMG, HMG Concepts">
-<meta name="theme-color" content="#0daaf6">
+<meta name="theme-color" content="#5207d4">
 <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
 /* === Critical app-shell CSS (inlined as a safety net) ===
    Guarantees the logged-in dashboard layout renders correctly even if the
    external stylesheet is cached/blocked/fails to load. Mirrors style.css. */
-:root{--sc-primary:#0daaf6;--sc-accent:#0a5a7e}
+:root{--sc-primary:#5207d4;--sc-accent:#da62bd}
 .app-layout{display:flex;min-height:100vh;background:#f8fafc}
 .app-sidebar{width:250px;flex-shrink:0;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto;z-index:40}
 .app-brand{display:flex;align-items:center;gap:12px;padding:18px;border-bottom:1px solid #e2e8f0}
@@ -30,8 +30,8 @@
 .app-brand strong{display:block;font-size:.95rem;font-weight:800;color:#0f172a;line-height:1.2}
 .app-nav{display:flex;flex-direction:column;gap:2px;padding:12px 10px;flex:1}
 .app-nav a{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;color:#475569;text-decoration:none;font-size:.9rem;font-weight:600;line-height:1;white-space:nowrap}
-.app-nav a:hover{background:#f1f5f9;color:#0daaf6}
-.app-nav a.active{background:#0daaf6;color:#fff}
+.app-nav a:hover{background:#f1f5f9;color:#5207d4}
+.app-nav a.active{background:#5207d4;color:#fff}
 .app-nav-icon{width:24px;min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0}
 .app-main{flex:1;min-width:0;display:flex;flex-direction:column}
 .app-topbar{display:flex;align-items:center;gap:14px;padding:14px 24px;background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:30}
@@ -45,7 +45,7 @@
 @media(min-width:901px){.app-topbar .mobile-toggle{display:none}}
 </style>
 </head>
-<body data-theme="theme3" data-school="HMG ACADEMY " data-font="inter">
+<body data-theme="theme32" data-school="HMG ACADEMY " data-font="oswald">
 
 <div id="notif-bell" class="notif-bell" title="Notifications" data-chatbot>
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
@@ -90,7 +90,7 @@
     <div style="text-align:center;margin-bottom:32px">
       <img src="assets/img/logo.svg" alt="HMG ACADEMY  logo" style="width:64px;height:64px;margin:0 auto 16px;border-radius:14px;object-fit:contain">
       <h1 style="font-size:1.8rem;font-weight:900;color:var(--dark);margin-bottom:4px">HMG ACADEMY </h1>
-      <p style="color:var(--gray-600);font-size:0.95rem">Bridging Technology Divide </p>
+      <p style="color:var(--gray-600);font-size:0.95rem">Bridging Digital Divide</p>
     </div>
     <div id="auth-tabs" style="display:flex;gap:8px;background:var(--gray-100);padding:4px;border-radius:12px;margin-bottom:24px">
       <button class="btn btn-primary" id="tab-signin" onclick="App.switchAuthTab('signin')" style="flex:1">Sign in</button>

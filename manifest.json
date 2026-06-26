@@ -1,11 +1,11 @@
 {
   "name": "HMG ACADEMY  — School Connect",
   "short_name": "HMG",
-  "description": "Bridging Technology Divide ",
+  "description": "Bridging Digital Divide",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0daaf6",
+  "theme_color": "#5207d4",
   "icons": [
     {
       "src": "assets/img/logo.svg",

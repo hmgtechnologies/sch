@@ -6,7 +6,7 @@
 <title>Certificates • HMG ACADEMY </title>
 <meta name="description" content="HMG ACADEMY  — Certificates. Free school management platform by HMG Concepts.">
 <meta name="keywords" content="HMG ACADEMY , school management, HMG, HMG Concepts">
-<meta name="theme-color" content="#0daaf6">
+<meta name="theme-color" content="#5207d4">
 <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
 /* === Critical app-shell CSS (inlined as a safety net) ===
    Guarantees the logged-in dashboard layout renders correctly even if the
    external stylesheet is cached/blocked/fails to load. Mirrors style.css. */
-:root{--sc-primary:#0daaf6;--sc-accent:#0a5a7e}
+:root{--sc-primary:#5207d4;--sc-accent:#da62bd}
 .app-layout{display:flex;min-height:100vh;background:#f8fafc}
 .app-sidebar{width:250px;flex-shrink:0;background:#fff;border-right:1px solid #e2e8f0;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow-y:auto;z-index:40}
 .app-brand{display:flex;align-items:center;gap:12px;padding:18px;border-bottom:1px solid #e2e8f0}
@@ -30,8 +30,8 @@
 .app-brand strong{display:block;font-size:.95rem;font-weight:800;color:#0f172a;line-height:1.2}
 .app-nav{display:flex;flex-direction:column;gap:2px;padding:12px 10px;flex:1}
 .app-nav a{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;color:#475569;text-decoration:none;font-size:.9rem;font-weight:600;line-height:1;white-space:nowrap}
-.app-nav a:hover{background:#f1f5f9;color:#0daaf6}
-.app-nav a.active{background:#0daaf6;color:#fff}
+.app-nav a:hover{background:#f1f5f9;color:#5207d4}
+.app-nav a.active{background:#5207d4;color:#fff}
 .app-nav-icon{width:24px;min-width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0}
 .app-main{flex:1;min-width:0;display:flex;flex-direction:column}
 .app-topbar{display:flex;align-items:center;gap:14px;padding:14px 24px;background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:30}
@@ -45,7 +45,7 @@
 @media(min-width:901px){.app-topbar .mobile-toggle{display:none}}
 </style>
 </head>
-<body data-theme="theme3" data-school="HMG ACADEMY " data-font="inter">
+<body data-theme="theme32" data-school="HMG ACADEMY " data-font="oswald">
 
 <div id="notif-bell" class="notif-bell" title="Notifications" data-chatbot>
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
@@ -88,7 +88,7 @@
 <div class="app-layout layout0" data-require-role="staff">
   <aside class="app-sidebar" id="app-sidebar">
       <div class="app-brand">
-        <img src="assets/img/logo.svg" alt="HMG ACADEMY  logo" style="object-fit:contain">
+        <img src="assets/img/logo.svg" alt="HMG ACADEMY " style="object-fit:contain" onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('div'),{textContent:('H'),style:'width:40px;height:40px;border-radius:10px;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900'}))">
         <div>
           <strong>HMG ACADEMY </strong>
           <div style="font-size:0.7rem;color:var(--gray-500)">HMG</div>
@@ -134,12 +134,39 @@
         </a><a href="assignments.html" class="">
           <span class="app-nav-icon">📝</span>
           <span>Assignments</span>
+        </a><a href="library.html" class="">
+          <span class="app-nav-icon">📖</span>
+          <span>Library</span>
+        </a><a href="conduct.html" class="">
+          <span class="app-nav-icon">⚖️</span>
+          <span>Conduct</span>
+        </a><a href="health.html" class="">
+          <span class="app-nav-icon">🩺</span>
+          <span>Health</span>
+        </a><a href="promotion.html" class="">
+          <span class="app-nav-icon">🎓</span>
+          <span>Promotion</span>
         </a><a href="lms.html" class="">
           <span class="app-nav-icon">🎓</span>
           <span>LMS</span>
+        </a><a href="gamification.html" class="">
+          <span class="app-nav-icon">🏅</span>
+          <span>Gamification</span>
+        </a><a href="career_counseling.html" class="">
+          <span class="app-nav-icon">🧭</span>
+          <span>Career</span>
         </a><a href="lesson_plans.html" class="">
           <span class="app-nav-icon">🗒️</span>
           <span>Lesson Plans</span>
+        </a><a href="behaviour.html" class="">
+          <span class="app-nav-icon">🏅</span>
+          <span>Behaviour</span>
+        </a><a href="support_plans.html" class="">
+          <span class="app-nav-icon">🧩</span>
+          <span>Support Plans</span>
+        </a><a href="substitutions.html" class="">
+          <span class="app-nav-icon">🔁</span>
+          <span>Substitutions</span>
         </a><a href="analytics.html" class="">
           <span class="app-nav-icon">📊</span>
           <span>Analytics</span>
@@ -158,9 +185,33 @@
         </a><a href="hr.html" class="">
           <span class="app-nav-icon">💼</span>
           <span>HR &amp; Payroll</span>
+        </a><a href="hostel.html" class="">
+          <span class="app-nav-icon">🛏️</span>
+          <span>Hostel</span>
+        </a><a href="alumni.html" class="">
+          <span class="app-nav-icon">🤝</span>
+          <span>Alumni</span>
+        </a><a href="inventory.html" class="">
+          <span class="app-nav-icon">📦</span>
+          <span>Inventory</span>
         </a><a href="certificates.html" class="active">
           <span class="app-nav-icon">📜</span>
           <span>Certificates</span>
+        </a><a href="document_builder.html" class="">
+          <span class="app-nav-icon">🧾</span>
+          <span>Documents</span>
+        </a><a href="fleet_tracking.html" class="">
+          <span class="app-nav-icon">🛰️</span>
+          <span>Fleet</span>
+        </a><a href="facility_booking.html" class="">
+          <span class="app-nav-icon">🏟️</span>
+          <span>Facilities</span>
+        </a><a href="compliance.html" class="">
+          <span class="app-nav-icon">✅</span>
+          <span>Compliance</span>
+        </a><a href="activity_log.html" class="">
+          <span class="app-nav-icon">🧮</span>
+          <span>Activity Log</span>
         </a><a href="diary.html" class="">
           <span class="app-nav-icon">📔</span>
           <span>Diary</span>
@@ -170,6 +221,9 @@
         </a><a href="announcements.html" class="">
           <span class="app-nav-icon">📢</span>
           <span>Announcements</span>
+        </a><a href="events.html" class="">
+          <span class="app-nav-icon">🎭</span>
+          <span>Events</span>
         </a><a href="messages.html" class="">
           <span class="app-nav-icon">📱</span>
           <span>Messaging</span>
@@ -191,6 +245,12 @@
         </a><a href="front_desk.html" class="">
           <span class="app-nav-icon">🛎️</span>
           <span>Front Desk</span>
+        </a><a href="helpdesk.html" class="">
+          <span class="app-nav-icon">🆘</span>
+          <span>Help Desk</span>
+        </a><a href="menu.html" class="">
+          <span class="app-nav-icon">🍽️</span>
+          <span>Menu</span>
         </a><a href="gallery.html" class="">
           <span class="app-nav-icon">🖼️</span>
           <span>Gallery</span>
@@ -224,6 +284,9 @@
         </a><a href="lost_found.html" class="">
           <span class="app-nav-icon">🔍</span>
           <span>Lost &amp; Found</span>
+        </a><a href="book_request.html" class="">
+          <span class="app-nav-icon">📖</span>
+          <span>Book Request</span>
         </a><a href="fees.html" class="">
           <span class="app-nav-icon">💰</span>
           <span>Fees</span>
@@ -233,6 +296,21 @@
         </a><a href="leave.html" class="">
           <span class="app-nav-icon">🏖️</span>
           <span>Leave</span>
+        </a><a href="visitors.html" class="">
+          <span class="app-nav-icon">🚪</span>
+          <span>Visitors</span>
+        </a><a href="transport.html" class="">
+          <span class="app-nav-icon">🚌</span>
+          <span>Transport</span>
+        </a><a href="cafeteria.html" class="">
+          <span class="app-nav-icon">🍽️</span>
+          <span>Cafeteria</span>
+        </a><a href="financial_aid.html" class="">
+          <span class="app-nav-icon">🎗️</span>
+          <span>Financial Aid</span>
+        </a><a href="donations.html" class="">
+          <span class="app-nav-icon">💝</span>
+          <span>Donations</span>
         </a><a href="payments_online.html" class="">
           <span class="app-nav-icon">💳</span>
           <span>Online Pay</span>
@@ -248,6 +326,7 @@
       <h1 class="app-page-title">Certificates</h1>
       <div style="margin-left:auto;display:flex;align-items:center;gap:12px">
         
+        <button class="btn btn-sm btn-outline" onclick="if(window.Super)Super.chatbot.explainPage()" title="About this page">ℹ️ Help</button>
         <button class="btn btn-sm btn-outline" onclick="App.toggleDarkMode()" title="Toggle theme">🌙</button>
         <button class="btn btn-sm btn-outline" onclick="App.signOut()" data-signout style="display:none">Sign out</button>
       </div>
@@ -259,14 +338,25 @@
         testimonial) each with a unique <strong>verification code</strong>. CBT exams also auto-issue certificate codes.</p>
       </div>
       <div class="card" style="margin-bottom:16px" data-staff-only>
+        <h3>✏️ Content</h3>
         <div class="grid grid-2">
+          <div class="form-group"><label>Recipient (pick a student or type)</label><select class="form-select" id="ct-student" onchange="CTUI.pickStudent(this.value)"><option value="">— type below —</option></select></div>
           <div class="form-group"><label>Recipient name</label><input class="form-input" id="ct-name" oninput="CTUI.render()"></div>
           <div class="form-group"><label>Certificate title</label><input class="form-input" id="ct-title" value="CERTIFICATE OF ACHIEVEMENT" oninput="CTUI.render()"></div>
           <div class="form-group"><label>Signatory</label><input class="form-input" id="ct-sig" value="Head of School" oninput="CTUI.render()"></div>
           <div class="form-group"><label>Date</label><input class="form-input" type="date" id="ct-date" oninput="CTUI.render()"></div>
         </div>
         <div class="form-group"><label>Body text</label><textarea class="form-input" id="ct-body" rows="2" oninput="CTUI.render()">has successfully met the requirements and is hereby recognised for outstanding achievement.</textarea></div>
-        <button class="btn btn-primary" onclick="CTUI.save()">💾 Save & Print</button>
+        <h3 style="margin-top:14px">🎨 Design</h3>
+        <div class="grid grid-2">
+          <div class="form-group"><label>Layout</label><select class="form-select" id="ct-layout" onchange="CTUI.render()"><option value="classic">Classic</option><option value="modern">Modern</option><option value="elegant">Elegant</option></select></div>
+          <div class="form-group"><label>Font</label><select class="form-select" id="ct-font" onchange="CTUI.render()"><option value="Georgia, serif">Georgia (serif)</option><option value="'Times New Roman', serif">Times</option><option value="Arial, sans-serif">Arial</option><option value="'Courier New', monospace">Courier</option><option value="Garamond, serif">Garamond</option></select></div>
+          <div class="form-group"><label>Primary colour</label><input class="form-input" type="color" id="ct-pc" value="#5207d4" oninput="CTUI.render()"></div>
+          <div class="form-group"><label>Accent colour</label><input class="form-input" type="color" id="ct-ac" value="#da62bd" oninput="CTUI.render()"></div>
+          <div class="form-group"><label>Border style</label><select class="form-select" id="ct-border" onchange="CTUI.render()"><option value="double">Double</option><option value="solid">Solid</option><option value="ridge">Ridge</option><option value="dashed">Dashed</option></select></div>
+          <div class="form-group"><label>Signature image (PNG)</label><input class="form-input" type="file" accept="image/*" id="ct-sigimg" onchange="CTUI.sigUpload(event)"></div>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn btn-primary" onclick="CTUI.save()">💾 Save &amp; Print</button><button class="btn btn-outline" onclick="CTUI.saveDesign()">💾 Save design template</button></div>
       </div>
       <div id="ct-preview" style="display:flex;justify-content:center;overflow:auto"></div>
     </div>
@@ -294,15 +384,40 @@
   if (window.CRUD) CRUD.init(sb);
 </script>
 <script>
-const CTUI={ code:'',
-  opts(){ return { name:document.getElementById('ct-name').value, title:document.getElementById('ct-title').value, signatory:document.getElementById('ct-sig').value, date:document.getElementById('ct-date').value, body:document.getElementById('ct-body').value, code:this.code }; },
-  render(){ if(!this.code && window.Super) this.code=Super.cert.code(); document.getElementById('ct-preview').innerHTML = window.Super?Super.cert.html(this.opts()):''; },
-  async save(){
-    const o=this.opts();
+const CTUI={ code:'', sig:'',
+  v(id){ var e=document.getElementById(id); return e?e.value:''; },
+  async loadStudents(){ if(!sb)return; const sel=document.getElementById('ct-student'); const {data}=await sb.from('students').select('full_name').order('full_name').limit(1000); (data||[]).forEach(s=>{var o=document.createElement('option');o.value=s.full_name;o.textContent=s.full_name;sel.appendChild(o);}); },
+  pickStudent(v){ if(v){document.getElementById('ct-name').value=v;} this.render(); },
+  sigUpload(ev){ var f=ev.target.files[0]; if(!f)return; if(f.size>500*1024){toast('Signature should be under 500KB','warning');return;} var r=new FileReader(); r.onload=()=>{ CTUI.sig=r.result; CTUI.render(); }; r.readAsDataURL(f); },
+  opts(){ return { name:this.v('ct-name'), title:this.v('ct-title'), signatory:this.v('ct-sig'), date:this.v('ct-date'), body:this.v('ct-body'),
+    layout:this.v('ct-layout'), font:this.v('ct-font'), pc:this.v('ct-pc'), ac:this.v('ct-ac'), border:this.v('ct-border'), sig:this.sig, code:this.code }; },
+  html(o){ var sc=(window.SCHOOL||{}); var logo='assets/img/logo.'+(sc.logoExt||'svg');
+    var sigBlock = o.sig ? '<img src="'+o.sig+'" style="height:50px;display:block;margin:0 auto -6px">' : '';
+    var bg = o.layout==='modern' ? 'background:linear-gradient(135deg,'+o.pc+'10,'+o.ac+'10)' : (o.layout==='elegant'?'background:#fffef8':'background:#fff');
+    return '<div style="width:820px;max-width:96vw;border:12px '+o.border+' '+o.pc+';padding:42px;text-align:center;font-family:'+o.font+';'+bg+'">'+
+      '<img src="'+logo+'" style="width:64px;height:64px;border-radius:12px;object-fit:contain" onerror="this.style.display=\'none\'">'+
+      '<h1 style="margin:8px 0 2px;color:'+o.pc+'">'+esc(sc.name||"School")+'</h1>'+
+      '<p style="color:#64748b;margin:0 0 18px">'+esc(sc.motto||'')+'</p>'+
+      '<h2 style="letter-spacing:3px;color:'+o.ac+'">'+esc(o.title||"CERTIFICATE")+'</h2>'+
+      '<p style="margin:16px 0 4px">This is to certify that</p>'+
+      '<h2 style="margin:0;border-bottom:2px solid '+o.ac+';display:inline-block;padding:0 30px 6px">'+esc(o.name||"_______")+'</h2>'+
+      '<p style="max-width:560px;margin:18px auto;line-height:1.6">'+esc(o.body||'')+'</p>'+
+      '<div style="display:flex;justify-content:space-between;margin-top:40px;font-size:.85rem">'+
+        '<div>____________________<br>Date: '+esc(o.date||new Date().toLocaleDateString())+'</div>'+
+        '<div>'+sigBlock+'____________________<br>'+esc(o.signatory||"Head of School")+'</div></div>'+
+      '<p style="margin-top:22px;font-size:.72rem;color:#94a3b8">Verification code: <strong>'+esc(o.code)+'</strong></p></div>';
+  },
+  render(){ if(!this.code) this.code=(window.Super?Super.cert.code():'SC-'+Math.random().toString(36).slice(2,8).toUpperCase()); document.getElementById('ct-preview').innerHTML=this.html(this.opts()); },
+  print(){ var w=window.open('','_blank'); w.document.write('<html><head><title>Certificate</title></head><body style="display:flex;justify-content:center;padding:16px">'+this.html(this.opts())+'<script>window.onload=()=>window.print()<\/script></body></html>'); w.document.close(); },
+  async save(){ const o=this.opts();
     if(sb){ try{ await sb.from('certificates').insert({ student_id:null, type:o.title, serial_no:o.code, signed_by:o.signatory }); }catch(e){} }
     if(window.App && App.logActivity) App.logActivity('issue','certificate',o.code);
-    if(window.Super) Super.cert.print(o);
+    this.print();
+  },
+  async saveDesign(){ if(!sb){toast('DB not configured','warning');return;} const o=this.opts();
+    const {error}=await sb.from('certificate_designs').insert({ name:o.title+' design', title:o.title, primary_color:o.pc, accent_color:o.ac, font:o.font, layout:o.layout, body_text:o.body, signatory:o.signatory, signature_data:o.sig, border_style:o.border });
+    if(error){toast(error.message,'danger');return;} toast('Design template saved ✓','success');
   }
 };
-document.addEventListener('DOMContentLoaded',()=>CTUI.render()); CTUI.render();
+document.addEventListener('DOMContentLoaded',()=>{ CTUI.loadStudents(); CTUI.render(); }); CTUI.render();
 </script></body></html>

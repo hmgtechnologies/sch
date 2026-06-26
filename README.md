@@ -6,9 +6,9 @@ Welcome to the official, enterprise-grade School Connect management platform gen
 
 This fully-featured platform adapts to traditional and modern build deployments. It comes built-in with features like offline access, push notifications, row-level security, and a beautiful UI tailored to your specific branding choices.
 
-**School Motto:** Bridging Technology Divide 
-**Branding Theme:** theme3 (Primary: #0daaf6, Accent: #0a5a7e)
-**Typography:** Inter
+**School Motto:** Bridging Digital Divide
+**Branding Theme:** theme32 (Primary: #5207d4, Accent: #da62bd)
+**Typography:** Oswald
 
 ---
 
@@ -59,18 +59,36 @@ Your platform is pre-configured with the following modules:
 - **Timetable Generator**
 - **QR Check-in**
 - **Assignments / Homework**
+- **Library**
+- **Conduct / Behaviour**
+- **Health / Clinic**
+- **Promotion / Graduation**
 - **Integrated LMS**
+- **PBIS & Gamification**
+- **Career & Placement**
 - **Lesson Plans & Curriculum**
+- **Behaviour & PBIS Points**
+- **Special Education / Support**
+- **Substitute / Cover**
 - **Analytics Dashboard**
 - **Approvals**
 - **Admin Data Console**
 - **Settings (2FA · Language · A11y)**
 - **Admissions & Enrollment**
 - **HR & Payroll**
+- **Hostel / Boarding**
+- **Alumni Network**
+- **Inventory & Assets**
 - **Certificates & Documents**
+- **Custom Document Builder**
+- **Advanced Fleet GPS**
+- **Facility Booking**
+- **Compliance & Audit**
+- **Audit / Activity Log**
 - **Student Diary**
 - **Surveys & Forms**
 - **Announcements**
+- **Events & Calendar**
 - **Messaging (WA/Email)**
 - **In-App Inbox**
 - **Complaints & Grievance**
@@ -78,6 +96,8 @@ Your platform is pre-configured with the following modules:
 - **Voting & Polls**
 - **PTA Meeting Scheduler**
 - **Front Desk / Dispatch**
+- **IT / Help Desk**
+- **Menu / Meal Planner**
 - **Photo & Video Gallery**
 - **E-Resources / Notes**
 - **Birthdays**
@@ -89,9 +109,15 @@ Your platform is pre-configured with the following modules:
 - **Parent–Child Mapping**
 - **School Calendar**
 - **Lost & Found**
+- **Book Reservation**
 - **Fees & Payments**
 - **School Finance**
 - **Leave Management**
+- **Visitor Management**
+- **Transport / Bus**
+- **Cafeteria & Meals**
+- **Scholarships & Aid**
+- **Fundraising & Donations**
 - **Online Fee Payments**
 
 ---
